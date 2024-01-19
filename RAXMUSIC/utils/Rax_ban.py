@@ -1,4 +1,4 @@
-wfrom pyrogram import filters
+from pyrogram import filters
 from RAXMUSIC.utils.admin_check import admin_check
 
 
