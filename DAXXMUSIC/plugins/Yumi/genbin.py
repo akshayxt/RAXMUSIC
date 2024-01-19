@@ -31,7 +31,7 @@ import random
 from DAXXMUSIC import app
 
 # Constants
-VALID_PREFIXES = [4, 5, 6,3]  # VISA starts with 4, MasterCard with 5, Discover with 6
+VALID_PREFIXES = [4, 5, 6,3]  # VISA starts with 4, RaxCard with 5, Discover with 6
 
 
 
