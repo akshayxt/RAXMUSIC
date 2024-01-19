@@ -4,7 +4,7 @@ import random
 import requests
 from RAXMUSIC import app 
 
-SUPPORT_CHAT = "ALLTYPECC"
+SUPPORT_CHAT = "Team_x_t"
 
 @app.on_message(filters.command("wish"))
 async def wish(_, m):
