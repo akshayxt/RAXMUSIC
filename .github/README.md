@@ -1,39 +1,67 @@
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
-<img src="https://camo.githubusercontent.com/82291b0fe831bfc6781e07fc5090cbd0a8b912bb8b8d4fec0696c881834f81ac/68747470733a2f2f70726f626f742e6d656469612f394575424971676170492e676966" width="800" height="3">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+ ㅤ ㅤ ㅤㅤ[![GIF](https://github.com/Akshayxt/Akshayxt/blob/main/Akshayxt.gif)](https://github.com/akshayxt)
+   [![Team_xt�](https://github-stats-alpha.vercel.app/api?username=Akshayxt "Akshayxt")](https://github-stats-alpha.vercel.app/api?username=Akshayxt "Akshayxt")
+                                                          
+  
+<img src="https://readme-typing-svg.herokuapp.com?color=00FF00&width=420&lines=🌿𝐓𝐄𝐀𝐌+XT+🌱">
 
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Akshayxt&repo=RAXMUSIC&theme=flag-india)
 
-[![GIF](https://github.com/Akshayxt/RAXMUSIC/blob/main/Akshayxt.gif)](https://github.com/Akshayxt)
-   [![𝐌𝐑.𝐃𝐀𝐗𝐗](https://github-stats-alpha.vercel.app/api?username=Akshayxt "MRDAXX")](https://github-stats-alpha.vercel.app/api?username=Akshayxt "MRDAXX")
+<!--
+**Akshayxt/Akshayxt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+
+
+<p align="center">
+    <b>ᴠɪsɪᴛᴏʀs</b><br>
+ -->    <img align="middle" src="https://profile-counter.glitch.me/Akshayxt/count.svg" />
+</p>
+<!---
+Akshayxt/Akshayxt is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+
+
+  [![Github Trophies](https://github-profile-trophy.vercel.app/?username=Akshayxt&theme=transparent&no-bg=true&margin-w=15&margin-h=10&row=1&column=6&count_private=true)](https://github.com/akshayxt?achievement=quickdraw&tab=achievements)
+  
+
+<p><img width="494" align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Akshayxt&show_icons=true&locale=en&layout=compact" alt="Akshayxt" /></p>
+
+# Contribution Graph:
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/4abd6e0f613946553de53.jpg">
+  <a href="https://github.com/Akshayxt">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Akshayxt#version3"/>
+  </a>
 </p>
+<a href="https://github.com/Akshayxt"><img alt="Abir's Activity Graph" src="https://ghactivity.mrayush.me/graph?username=Akshayxt&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true" /></a>
 
-<p align="center">
-<b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</b>
-</p>
 
-<h3 align="center">
-    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
-</h3>
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Akshayxt/RAXMUSIC"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-green?style=for-the-badge&logo=heroku" width="520" height="138.45"/></a></p>
+# Github Streak ☠︎︎
 
-<p><img width="500" align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Akshayxt&show_icons=true&locale=en&layout=compact" alt="Akshayxt" /></p>
 
-[![Contributors](https://contrib.rocks/image?repo=Akshayxt/RAXMUSIC)](https://github.com/Akshayxt/RAXMUSIC/graphs/contributors)
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Akshayxt/RAXMUSICMUSICMUSICMUSIC"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-bringle?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
-### Contact :
-<a href="https://t.mex"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
-<a href="https://mail.google.com/mail/?view=cm&fs=1&to=thebotolbaba@gmail.com"><img title="GMAIL" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-<a href="https://youtube.com/cyberdaxx"><img title="Youtube" src="https://img.shields.io/badge/youtube-%230077B5.svg?&style=for-the-badge&logo=youtube&logoColor=white"></a>
-<a href="https://twitter.com/"><img title="Twitter" src="https://img.shields.io/badge/Twitter-12100E?style=for-the-badge&logo=twitter&logoColor=white"></a>
-<a href="https://facebook.com/"><img title="Facebook" src="https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white"></a>
-<a href="https://instagram.com/daxxsir"><img title="Instagram" src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white"></a>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-<img src="https://camo.githubusercontent.com/82291b0fe831bfc6781e07fc5090cbd0a8b912bb8b8d4fec0696c881834f81ac/68747470733a2f2f70726f626f742e6d656469612f394575424971676170492e676966" width="800" height="3">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+  [![GitHub Streak](https://streak-stats.demolab.com?user=Akshayxt&theme=radical&border_radius=5&date_format=j%20M%5B%20Y%5D&fire=FF8100)](https://Akshayxt.me)
+
+# 🛠️ Languages and tools☠︎︎
+</br>
+
+[![Languages and Tools](https://skillicons.dev/icons?i=androidstudio,bash,vscode,docker,git,github,linux,heroku,arduino,redis,mongodb,java,html,py,c,ts,js,deno,flutter,fastapi&perline=10)](https://Akshayxt.me)
+
+
+
+# My Stats☠︎︎
+![ GitHub stats](https://github-readme-stats.vercel.app/api?username=Akshayxt&show_icons=true&theme=radical)
+
+# Contact ☠︎︎
+<a href="https://t.me/akshay_xt"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=akshaygangwar.xt@gmail.com"><img title="GMAIL" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+<a href="https://youtube.com/akshayxt"><img title="Youtube" src="https://img.shields.io/badge/youtube-%230077B5.svg?&style=for-the-badge&logo=youtube&logoColor=white"></a>
+
+git branch -m main RAXMUSICMUSICMUSICMUSIC
+git fetch origin
+git branch -u RAXMUSICMUSICMUSICMUSIC RAXMUSICMUSICMUSICMUSIC
+git remote set-head origin -a
