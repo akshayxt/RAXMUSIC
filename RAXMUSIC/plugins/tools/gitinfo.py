@@ -1,22 +1,24 @@
 import asyncio, os, time, aiohttp
 import aiohttp
 from pyrogram import filters
+from blackpink import blackpink as bp
 from RAXMUSIC import app
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 ###
-@app.on_message(filters.command("Raxhub"))
-async def Raxhub(_, message):
-    text = message.text[len("/Raxhub") :]
-    papaRax(f"{text}").save(f"Raxhub_{message.from_user.id}.png")
-    await message.reply_photo(f"Raxhub_{message.from_user.id}.png")
-    os.remove(f"Raxhub_{message.from_user.id}.png")
+@app.on_message(filters.command("blackpink"))
+async def blackpink(_, message):
+    text = message.text[len("/blackpink ") :]
+    bp(f"{text}").save(f"blackpink_{message.from_user.id}.png")
+    await message.reply_photo(f"blackpink_{message.from_user.id}.png")
+    os.remove(f"blackpink_{message.from_user.id}.png")
+
 ####
 
 @app.on_message(filters.command(["github", "git"]))
 async def github(_, message):
     if len(message.command) != 2:
-        await message.reply_text("/git Akshayxt")
+        await message.reply_text("/git RAXMUSICTEAM")
         return
 
     username = message.text.split(None, 1)[1]
