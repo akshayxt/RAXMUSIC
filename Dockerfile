@@ -1,4 +1,5 @@
 FROM nikolaik/python-nodejs:python3.10-nodejs19
+RUN pip3 install --upgrade pip setuptools
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends ffmpeg \
