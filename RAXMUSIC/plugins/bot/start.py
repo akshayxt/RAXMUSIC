@@ -1,4 +1,4 @@
-import time
+"""import time
 import random
 from pyrogram import filters
 from pyrogram.enums import ChatType
@@ -166,7 +166,7 @@ async def welcome(client, message: Message):
                         app.mention,
                     ),
                     reply_markup=InlineKeyboardMarkup(out),
-                )
+                )"""
                 await add_served_chat(message.chat.id)
                 await message.stop_propagation()
         except Exception as ex:
