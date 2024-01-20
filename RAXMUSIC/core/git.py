@@ -39,9 +39,9 @@ def git():
         UPSTREAM_REPO = config.UPSTREAM_REPO
     try:
         repo = Repo()
-        LOGGER(__name__).info(f"Git Client Found [VPS DEPLOYER]")
+        LOGGER(__name__).info(f"𝗚𝗶𝘁 𝗖𝗹𝗶𝗲𝗻𝘁 𝗙𝗼𝘂𝗻𝗱 [𝗩𝗣𝗦 𝗗𝗘𝗣𝗟𝗢𝗬𝗘𝗥]")
     except GitCommandError:
-        LOGGER(__name__).info(f"Invalid Git Command")
+        LOGGER(__name__).info(f"𝗜𝗻𝘃𝗮𝗹𝗶𝗱 𝗚𝗶𝘁 𝗖𝗼𝗺𝗺𝗮𝗻𝗱")
     except InvalidGitRepositoryError:
         repo = Repo.init()
         if "origin" in repo.remotes:

@@ -39,14 +39,14 @@ async def ban_user(user_id, first_name, admin_id, admin_name, chat_id, reason, t
     try:
         await app.ban_chat_member(chat_id, user_id)
     except ChatAdminRequired:
-        msg_text = "Ban rights? Nah, I'm just here for the digital high-fives 🙌\nGive me ban rights! 😡🥺"
+        msg_text = "𝐁𝐚𝐧 𝐫𝐢𝐠𝐡𝐭𝐬? 𝐍𝐚𝐡, 𝐈'𝐦 𝐣𝐮𝐬𝐭 𝐡𝐞𝐫𝐞 𝐟𝐨𝐫 𝐭𝐡𝐞 𝐝𝐢𝐠𝐢𝐭𝐚𝐥 𝐡𝐢𝐠𝐡-𝐟𝐢𝐯𝐞𝐬 🙌\n𝐆𝐢𝐯𝐞 𝐦𝐞 𝐛𝐚𝐧 𝐫𝐢𝐠𝐡𝐭𝐬! 😡🥺"
         return msg_text, False
     except UserAdminInvalid:
-        msg_text = "I wont ban an admin bruh!!"
+        msg_text = "𝐈 𝐰𝐨𝐧𝐭 𝐛𝐚𝐧 𝐚𝐧 𝐚𝐝𝐦𝐢𝐧 𝐛𝐫𝐮𝐡!!"
         return msg_text, False
     except Exception as e:
-        if user_id == 6711389550:
-            msg_text = "why should i ban myself? sorry but I'm not stupid like you"
+        if user_id == 6569998620:
+            msg_text = "𝐰𝐡𝐲 𝐬𝐡𝐨𝐮𝐥𝐝 𝐢 𝐛𝐚𝐧 𝐦𝐲𝐬𝐞𝐥𝐟? 𝐬𝐨𝐫𝐫𝐲 𝐛𝐮𝐭 𝐈'𝐦 𝐧𝐨𝐭 𝐬𝐭𝐮𝐩𝐢𝐝 𝐥𝐢𝐤𝐞 𝐲𝐨𝐮"
             return msg_text, False
         
         msg_text = f"opps!!\n{e}"
@@ -56,7 +56,7 @@ async def ban_user(user_id, first_name, admin_id, admin_name, chat_id, reason, t
     admin_mention = mention(admin_id, admin_name)
 
     msg_text += f""
-    msg_text += f"{user_mention} was banned by {admin_mention}\n"
+    msg_text += f"{user_mention} 𝐰𝐚𝐬 𝐛𝐚𝐧𝐧𝐞𝐝 𝐛𝐲 {admin_mention}\n"
     
     if reason:
         msg_text += f"Reason: `{reason}`\n"

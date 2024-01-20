@@ -47,7 +47,7 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER(__name__).info(f"Starting Assistants...")
+        LOGGER(__name__).info(f"𝐒𝐭𝐚𝐫𝐭𝐢𝐧𝐠 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭𝐬...")
         if config.STRING1:
             await self.one.start()
             try:
@@ -58,11 +58,11 @@ class Userbot(Client):
                 pass
             assistants.append(1)
             try:
-                await self.one.send_message(config.LOGGER_ID, "Assistant Start.........")
+                await self.one.send_message(config.LOGGER_ID, "⚡")
                                          
             except:
                 LOGGER(__name__).error(
-                    "Assistant Account 1 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin!"
+                    "𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝗔𝗰𝗰𝗼𝘂𝗻𝘁 𝟭 𝗵𝗮𝘀 𝗳𝗮𝗶𝗹𝗲𝗱 𝘁𝗼 𝗮𝗰𝗰𝗲𝘀𝘀 𝘁𝗵𝗲 𝗹𝗼𝗴 𝗚𝗿𝗼𝘂𝗽. 𝗠𝗮𝗸𝗲 𝘀𝘂𝗿𝗲 𝘁𝗵𝗮𝘁 𝘆𝗼𝘂 𝗵𝗮𝘃𝗲 𝗮𝗱𝗱𝗲𝗱 𝘆𝗼𝘂𝗿 𝗮𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝘁𝗼 𝘆𝗼𝘂𝗿 𝗹𝗼𝗴 𝗴𝗿𝗼𝘂𝗽 𝗮𝗻𝗱 𝗽𝗿𝗼𝗺𝗼𝘁𝗲𝗱 𝗮𝘀 𝗮𝗱𝗺𝗶𝗻!"
                 )
                 exit()
             self.one.id = self.one.me.id
@@ -81,7 +81,7 @@ class Userbot(Client):
                 pass
             assistants.append(2)
             try:
-                await self.two.send_message(config.LOGGER_ID, "Assistant Started")
+                await self.two.send_message(config.LOGGER_ID, "𝐑𝐚𝐱 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐒𝐭𝐚𝐫𝐭𝐞𝐝")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 2 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin!"

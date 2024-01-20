@@ -99,7 +99,7 @@ async def paste_func(_, message):
 
             current_line = end_line
             page_number += 1
-            await sleep(1)  # Optional: Add a sleep to avoid rate limiting or being blocked
+            await sleep(0.1)  # Optional: Add a sleep to avoid rate limiting or being blocked
 
     else:
         await m.edit("**Unsupported file type. Only text files can be pasted.**")
