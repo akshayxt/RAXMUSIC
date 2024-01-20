@@ -4,7 +4,7 @@ import config
 from RAXMUSIC import app
 
 
-def mstart_panel(_):
+def start_panel(_):
     buttons = [
         [
             InlineKeyboardButton(

@@ -21,7 +21,7 @@ from RAXMUSIC.utils.database import (
 )
 from RAXMUSIC.utils.decorators.language import LanguageStart
 from RAXMUSIC.utils.formatters import get_readable_time
-from RAXMUSIC.utils.inline import help_pannel, private_panel, mstart_panel
+from RAXMUSIC.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 
@@ -45,9 +45,9 @@ YUMI_PICS = [
 
 
 
-@app.on_message(filters.command(["mstart"]) & filters.private & ~BANNED_USERS)
+@app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
 @LanguageStart
-async def mstart_pm(client, message: Message, _):
+async def start_pm(client, message: Message, _):
     await add_served_user(message.from_user.id)
     if len(message.text.split()) > 1:
         name = message.text.split(None, 1)[1]
@@ -80,7 +80,7 @@ async def mstart_pm(client, message: Message, _):
                 channel = result["channel"]["name"]
                 link = result["link"]
                 published = result["publishedTime"]
-            searched_text = _["mstart_6"].format(
+            searched_text = _["start_6"].format(
                 title, duration, views, published, channellink, channel, app.mention
             )
             key = InlineKeyboardMarkup(
@@ -107,7 +107,7 @@ async def mstart_pm(client, message: Message, _):
         out = private_panel(_)
         await message.reply_photo(
             random.choice(YUMI_PICS),
-            caption=_["mstart_2"].format(message.from_user.mention, app.mention),
+            caption=_["start_2"].format(message.from_user.mention, app.mention),
             reply_markup=InlineKeyboardMarkup(out),
         )
         if await is_on_off(2):
@@ -117,14 +117,14 @@ async def mstart_pm(client, message: Message, _):
             )
 
 
-@app.on_message(filters.command(["mstart"]) & filters.group & ~BANNED_USERS)
+@app.on_message(filters.command(["start"]) & filters.group & ~BANNED_USERS)
 @LanguageStart
 async def start_gp(client, message: Message, _):
-    out = mstart_panel(_)
+    out = start_panel(_)
     uptime = int(time.time() - _boot_)
     await message.reply_photo(
         random.choice(YUMI_PICS),
-        caption=_["mstart_1"].format(app.mention, get_readable_time(uptime)),
+        caption=_["start_1"].format(app.mention, get_readable_time(uptime)),
         reply_markup=InlineKeyboardMarkup(out),
     )
     return await add_served_chat(message.chat.id)
@@ -143,11 +143,11 @@ async def welcome(client, message: Message):
                     pass
             if member.id == app.id:
                 if message.chat.type != ChatType.SUPERGROUP:
-                    await message.reply_text(_["mstart_4"])
+                    await message.reply_text(_["start_4"])
                     return await app.leave_chat(message.chat.id)
                 if message.chat.id in await blacklisted_chats():
                     await message.reply_text(
-                        _["mstart_5"].format(
+                        _["start_5"].format(
                             app.mention,
                             f"https://t.me/{app.username}?start=sudolist",
                             config.SUPPORT_CHAT,
@@ -156,10 +156,10 @@ async def welcome(client, message: Message):
                     )
                     return await app.leave_chat(message.chat.id)
 
-                out = mstart_panel(_)
+                out = start_panel(_)
                 await message.reply_photo(
                     random.choice(YUMI_PICS),
-                    caption=_["mstart_3"].format(
+                    caption=_["start_3"].format(
                         message.from_user.mention,
                         app.mention,
                         message.chat.title,
