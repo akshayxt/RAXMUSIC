@@ -125,8 +125,8 @@ async def instagram_reel(client, message):
                 video_url = media_urls[0]['url']
                 await message.reply_video(f"{video_url}")
             else:
-                await message.reply("No video found in the response. may be accountbis private.")
+                await message.reply("𝐍𝐨 𝐯𝐢𝐝𝐞𝐨 𝐟𝐨𝐮𝐧𝐝 𝐢𝐧 𝐭𝐡𝐞 𝐫𝐞𝐬𝐩𝐨𝐧𝐬𝐞. 𝐦𝐚𝐲 𝐛𝐞 𝐚𝐜𝐜𝐨𝐮𝐧𝐭𝐛𝐢𝐬 𝐩𝐫𝐢𝐯𝐚𝐭𝐞.")
         else:
-            await message.reply("Request was not successful.")
+            await message.reply("")
     else:
         await message.reply("Please provide a valid Instagram URL using the /reels command.")
