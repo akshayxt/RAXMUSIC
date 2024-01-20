@@ -64,7 +64,7 @@ def btn(text, value, type="callback_data"):
 async def search_(app: app, msg: Message):
     split = msg.text.split(None, 1)
     if len(split) == 1:
-        return await msg.reply_text("**𝗚𝗜𝗩𝗘 𝗤𝗨𝗘𝗥𝗬 𝗧𝗢 𝗦𝗘𝗥𝗖𝗛**
+        return await msg.reply_text("**𝗚𝗜𝗩𝗘 𝗤𝗨𝗘𝗥𝗬 𝗧𝗢 𝗦𝗘𝗥𝗖𝗛**)
 ")
     to_del = await msg.reply_text("**֎✬𝐒𝐄𝐀𝐑𝐂𝐇𝐈𝐍𝐆 𝐎𝐍 𝐆𝐎𝐎𝐆𝐋𝐄✨✩...**")
     query = split[1]
