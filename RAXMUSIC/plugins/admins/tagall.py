@@ -10,7 +10,7 @@ from pyrogram.types import ChatPermissions
 SPAM_CHATS = []
 
 
-@app.on_message(filters.command(["tagall", "all"]) | filters.command("@all", "") & filters.group)
+@app.on_message(filters.command(["tagall", "all", "utag", "tag",]) | filters.command("@all", "") & filters.group)
 async def tag_all_users(_,message): 
     replied = message.reply_to_message  
     if len(message.command) < 2 and not replied:
@@ -63,8 +63,8 @@ async def cancelcmd(_, message):
             SPAM_CHATS.remove(chat_id)
         except Exception:
             pass   
-        return await message.reply_text("**ᴛᴀɢ ᴀʟʟ sᴜᴄᴄᴇssғᴜʟʟʏ sᴛᴏᴘᴘᴇᴅ!**")     
+        return await message.reply_text("ᴛᴀɢ ᴀʟʟ 🆂ᴜᴄᴄᴇ🆂🆂ғᴜʟʟʏ 🆂ᴛᴏᴘᴘᴇᴅ!")     
                                      
     else :
-        await message.reply_text("**ɴᴏ ᴘʀᴏᴄᴇss ᴏɴɢᴏɪɴɢ!**")  
+        await message.reply_text("🇸​​🇴​​🇷​​🇷​​🇾​ ​🇨​​🇺​​🇷​​🇷​​🇪​​🇳​​🇹​​🇱​​🇾​ ​🇮​ ​🇦​​🇲​ ​🇳​​🇴​​🇹​ ​🇹​​🇦​​🇬​​🇮​​🇳​​🇬​ ​🇦​​🇳​​🇾​​🇴​​🇳​​🇪​")  
         return       
