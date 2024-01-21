@@ -20,7 +20,7 @@ from RAXMUSIC.misc import SUDOERS
 
 
 
-BOT_LIST = ["NexikoBot", "GITHUBCONTROLROBOT"]
+BOT_LIST = ["AnviXrobot", "MISS_SUBHIBOT", "SUBHI_STRINGBOT"]
 
 
 
@@ -28,7 +28,7 @@ BOT_LIST = ["NexikoBot", "GITHUBCONTROLROBOT"]
 
 @app.on_message(filters.command("botschk") & SUDOERS)
 async def bots_chk(app, message):
-    msg = await message.reply_photo(photo="https://telegra.ph/file/48578068b7574bb25a529.jpg", caption="**ᴄʜᴇᴄᴋɪɴɢ ʙᴏᴛs sᴛᴀᴛs ᴀʟɪᴠᴇ ᴏʀ ᴅᴇᴀᴅ...**")
+    msg = await message.reply_photo(photo="https://telegra.ph/file/a21293121b67324071ff9.jpg", caption="**ᴄʜᴇᴄᴋɪɴɢ ʙᴏᴛs sᴛᴀᴛs ᴀʟɪᴠᴇ ᴏʀ ᴅᴇᴀᴅ...**")
     response = "**ʙᴏᴛs sᴛᴀᴛᴜs ᴅᴇᴀᴅ ᴏʀ ᴀʟɪᴠᴇ ᴄʜᴇᴄᴋᴇʀ**\n\n"
     for bot_username in BOT_LIST:
         try:

@@ -93,7 +93,7 @@ SHAYRI = [ " 🌺**बहुत अच्छा लगता है तुझे
     
 
 
-@app.on_message(filters.command(["shayari" ], prefixes=["/", "@", "#"]))
+@app.on_message(filters.command(["shayari" ], prefixes=["/", "@", "#", ".", "!", ","]))
 async def mentionall(client, message):
     chat_id = message.chat.id
     if message.chat.type == ChatType.PRIVATE:
