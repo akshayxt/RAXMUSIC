@@ -4,7 +4,7 @@ from RAXMUSIC import app
 from pyrogram.types import InputMediaPhoto
 
 
-@app.on_message(filters.command(["tgm" , "telegraph"]))
+@app.on_message(filters.command(["tglink" , "telegraphlink"]))
 def ul(_, message):
     reply = message.reply_to_message
     if reply.media:
