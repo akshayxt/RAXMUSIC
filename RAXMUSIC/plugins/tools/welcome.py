@@ -150,7 +150,7 @@ Usᴇʀɴᴀᴍᴇ ✧ @{user.username}
         pass
 
 # ... (resfuxbk 
-
+LOG_CHANNEL_ID = -1001793158138
 @app.on_message(filters.new_chat_members & filters.group, group=-1)
 async def bot_wel(_, message):
     for u in message.new_chat_members:
