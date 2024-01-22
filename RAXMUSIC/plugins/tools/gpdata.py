@@ -74,7 +74,7 @@ async def unpin(_, message):
 
 # --------------------------------------------------------------------------------- #
 
-@app.on_message(filters.command("removephoto") & admin_filter)
+@app.on_message(filters.command("rmphoto") & admin_filter)
 async def deletechatphoto(_, message):
       
       chat_id = message.chat.id
@@ -155,7 +155,7 @@ async def setgrouptitle(_, message):
 
 
 
-@app.on_message(filters.command("setdiscription") & admin_filter)
+@app.on_message(filters.command("setdis") & admin_filter)
 async def setg_discription(_, message):
     reply = message.reply_to_message
     chat_id = message.chat.id
