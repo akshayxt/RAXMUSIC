@@ -9,7 +9,7 @@ from RAXMUSIC.utils.Rax_ban import admin_filter
 SPAM_CHATS = []
 
 
-@app.on_message(filters.command(["mantion", "all", "utag", "tagall"]) & filters.group & admin_filter)
+@app.on_message(filters.command(["mantion", "all", "utag",]) & filters.group & admin_filter)
 async def tag_all_users(_,message): 
     replied = message.reply_to_message  
     if len(message.command) < 2 and not replied:
