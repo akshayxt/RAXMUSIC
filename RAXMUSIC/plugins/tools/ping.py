@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from RAXMUSIC import app
-from RAXMUSIC.core.call import RAXMUSIC
+from RAXMUSIC.core.call import Rax
 from RAXMUSIC.utils import bot_sys_stats
 from RAXMUSIC.utils.decorators.language import language
 from RAXMUSIC.utils.inline import supp_markup
