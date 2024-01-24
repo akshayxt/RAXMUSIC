@@ -1,4 +1,4 @@
-/eval from datetime import datetime
+from datetime import datetime
 
 from pyrogram import filters
 from pyrogram.types import Message
