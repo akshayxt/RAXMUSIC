@@ -1,5 +1,5 @@
 from pyrogram import Client, filters
-from Nandni import app
+from Rax import app
 from config import OWNER_ID, BOT_USERNAME
 from pyrogram.types import Message
 
