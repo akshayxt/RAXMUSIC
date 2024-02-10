@@ -8,7 +8,7 @@ from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 import config
 from RAXMUSIC import app
 from RAXMUSIC.misc import db
-from RAXMUSIC.utils import RaxBin, get_channeplayCB, seconds_to_min
+from RAXMUSIC.utils import get_channeplayCB, seconds_to_min
 from RAXMUSIC.utils.database import get_cmode, is_active_chat, is_music_playing
 from RAXMUSIC.utils.decorators.language import language, languageCB
 from RAXMUSIC.utils.inline import queue_back_markup, queue_markup
