@@ -18,7 +18,7 @@ from RAXMUSIC.utils.database import (
     remove_active_video_chat,
 )
 from RAXMUSIC.utils.decorators.language import language
-from RAXMUSIC.utils.pastebin import RaxBin
+
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
